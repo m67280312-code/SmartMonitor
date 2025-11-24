@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartMonitor</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0a0f1a;
+        color: #e8ecf1;
+    }
+
+    header {
+        background: linear-gradient(90deg, #0a0f1a, #0c1628, #0a0f1a);
+        padding: 20px;
+        text-align: center;
+        border-bottom: 3px solid #1e90ff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background: #0c1628;
+        padding: 15px;
+        border-bottom: 2px solid #1e90ff;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #d8e8ff;
+        padding: 10px 18px;
+        border-radius: 8px;
+        background: #122035;
+        border: 1px solid #1e90ff;
+        transition: .3s;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background: #1e90ff;
+        color: white;
+        transform: scale(1.05);
+    }
+
+    section {
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .card {
+        background: #121c2b;
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 20px;
+        border: 1px solid #1e90ff44;
+        box-shadow: 0 0 15px #1e90ff33;
+    }
+
+    h2 {
+        border-left: 5px solid #1e90ff;
+        padding-left: 10px;
+    }
+
+    .icon {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .features div {
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        background: #0d1828;
+        border-left: 4px solid #1e90ff;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .transmedia-box {
+        background: #111b29;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #1e90ff55;
+        box-shadow: 0 0 10px #1e90ff33;
+    }
+
+    footer {
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+        background: #0c1628;
+        color: #b8c8e8;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>SmartMonitor AI</h1>
+    <h3>Monitoreo remoto en tiempo real — Versión Demo</h3>
+</header>
+
+<nav>
+    <a href="#presentacion">Presentación</a>
+    <a href="#funciones">Funciones</a>
+    <a href="#transmedia">Transmedia</a>
+</nav>
+
+<!-- PRESENTACIÓN -->
+<section id="presentacion">
+    <h2>Presentación</h2>
+    <div class="card">
+        <p>
+            SmartMonitor AI es una aplicación diseñada para monitoreo inteligente en tiempo real.  
+            Procesa señales, detecta anomalías, ofrece visualizaciones avanzadas y permite conexión remota desde cualquier dispositivo.
+        </p>
+        <p>
+            Esta página muestra una <b>demo de interfaz</b> y las capacidades principales del sistema.
+        </p>
+    </div>
+</section>
+
+<!-- FUNCIONES -->
+<section id="funciones">
+    <h2>¿Qué hace SmartMonitor AI?</h2>
+
+    <div class="features">
+        <div><span class="icon">🤖</span><b>Monitoreo inteligente</b> — Procesa señales, detecta anomalías y usa modelos de IA ligeros.</div>
+        <div><span class="icon">🌐</span><b>Conexión remota</b> — Compatible con WebSocket o polling desde celular o PC.</div>
+        <div><span class="icon">📈</span><b>Visualizaciones avanzadas</b> — Gráficas, historial y alertas programables.</div>
+    </div>
+</section>
+
+<!-- TRANSMEDIA COMERCIAL -->
+<section id="transmedia">
+    <h2>Transmedia — Historia Comercial de SmartMonitor</h2>
+
+    <div class="transmedia-box">
+
+        <p>
+            SmartMonitor comenzó como una iniciativa dentro de pequeños talleres y laboratorios 
+            donde técnicos y estudiantes enfrentaban el mismo problema: fallas inesperadas, 
+            sensores sin supervisión constante y la frustración de enterarse de un error 
+            cuando ya era demasiado tarde.
+        </p>
+
+        <p>
+            Entre prácticas, proyectos y mantenimiento de equipos surgió la pregunta:  
+            <b>“¿Por qué no existe una herramienta simple, accesible y realmente útil para vigilar sistemas en tiempo real?”</b>
+        </p>
+
+        <p>
+            La app nació de experiencias reales: equipos que se sobrecalentaban sin aviso, 
+            registros manuales que se perdían, señales sin monitoreo constante y procesos que dependían 
+            más de la suerte que de la tecnología.
+        </p>
+
+        <p>
+            SmartMonitor fue diseñada como una solución moderna: monitoreo en tiempo real, 
+            alertas instantáneas, paneles visuales claros y conexión remota desde cualquier dispositivo.  
+            Todo en un solo lugar, sin configuraciones complicadas.
+        </p>
+
+        <p>
+            Conforme el proyecto avanzó, se integraron más capacidades: detección de anomalías con IA, 
+            gráficas dinámicas, historial de eventos y una interfaz pensada para ser intuitiva, precisa y confiable.
+        </p>
+
+        <p>
+            Hoy, SmartMonitor representa más que una plataforma: es una herramienta creada a partir de 
+            problemas reales, pensada para evitar fallos críticos, dar control total y hacer que el monitoreo 
+            tecnológico sea accesible para todos.
+        </p>
+
+    </div>
+</section>
+
+<footer>
+    SmartMonitor AI — Demo © 2025  
+</footer>
+
+</body>
+</html>
